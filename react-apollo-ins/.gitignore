@@ -1,16 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-apollo-music-share/node_modules
-apollo-music-share/.pnp
-check-list/node_modules
-check-list/.pnp
-react-apollo-ins/node_modules
-react-ins-server/node_modules
-react-social-media/node_modules
-web-live-stream/node_modules
-react-social-media/.pnp
-.idea/
+/node_modules
+/.pnp
 .pnp.js
 
 # testing
@@ -18,6 +10,9 @@ react-social-media/.pnp
 
 # production
 /build
+
+# tmp
+/tmp
 
 # misc
 .DS_Store
